@@ -67,7 +67,7 @@ class MarkovMachine {
       curWord = nextWord;
     }
 
-    return text;
+    return text.trim();
   }
 }
 
